@@ -1,0 +1,33 @@
+html{
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-;
+  font-family: "DM Sans", sans-serif;
+}
+
+body{
+  color: #6E7783;
+  overflow-x: hidden;
+}
+
+section{
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.course{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page{
+  background: linear-gradient(180deg, #D8E6E7, white);
+  background-attachment: fixed;
+}

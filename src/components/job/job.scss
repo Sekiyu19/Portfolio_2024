@@ -1,0 +1,55 @@
+.job{
+  position: absolute;
+  font-size: 3vh;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.ccwSiteWrapper{
+  height: 400px;
+  width: 700px;
+  position: absolute;
+}
+
+.ccwSite{
+  // height: 950px;
+  // width: 1700px;
+  // transform: scale(0.3);
+  height: 570px;
+  width: 1200px;
+  transform: scale(0.5);
+  position: absolute;
+  top: -140px;
+  left: 420px;
+}
+
+.ccwSiteText{
+  height: 250px;
+  width: 610px;
+  position: absolute;
+  top: 10px;
+  left: 90px;
+}
+
+.ccwReleaseImageWrapper{
+  height: 400px;
+  width: 700px;
+  position: absolute;
+}
+
+.ccwReleaseImage{
+  height: 950px;
+  width: 1700px;
+  transform: scale(0.3);
+  position: absolute;
+  top: -10px;
+  left: -500px;
+}
+
+.ccwReleaseText{
+  height: 250px;
+  width: 610px;
+  position: absolute;
+  top: 330px;
+  left: 700px;
+}
