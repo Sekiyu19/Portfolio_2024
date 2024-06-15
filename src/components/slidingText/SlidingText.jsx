@@ -22,7 +22,7 @@ const SlidingText = ({text}) => {
     offset: ["start start", "end start"]
   });
 
-  const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "190%"]);
+  const yBg = useTransform(scrollYProgress, [0, 1], ["0vh", "125vh"]);
   const color = useTransform(scrollYProgress, [0, 1], ['#9DC3C1', '#D8E6E7']);
 
   return (
