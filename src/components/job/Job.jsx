@@ -9,8 +9,28 @@ const Job = () => {
         現在は保育施設の管理アプリケーションのプロジェクトに配属されています。
       </div> */}
       <div>
-        <div className="ccwSiteWrapper">
+        {/* <div className="ccwSiteWrapper">
           <iframe className="ccwSite" src="https://home.childcareweb.jp/#newsTop" frameborder="0"></iframe>
+        </div> */}
+        <div className="ccwSiteWrapper">
+          <a
+            href="https://home.childcareweb.jp/"
+          >
+            <motion.img
+            whileHover={{ 
+              scale: 1.05,
+              boxShadow: '0px 0px 3vw 2vw white' 
+            }}
+            whileTap={{ 
+              scale: 0.97,
+              boxShadow: '0px 0px 3vw 2vw white'
+            }}
+            transition={{ duration: 0.2 }}
+            src="https://home.childcareweb.jp/wp-content/themes/childcareweb/img/index/main_visual_001.jpg" className="ccwSite"/>
+            <div className="ccw">
+              <h2 className="">ChildCareWeb株式会社</h2>
+            </div>
+          </a>
         </div>
         <div className="ccwSiteText">
           学部1年の8月から株式会社PLISEでアルバイトをしています。

@@ -9,13 +9,29 @@
   position: absolute;
 }
 
+// .ccwSite{
+//   height: 570px;
+//   width: 82vw;
+//   transform: scale(0.5);
+//   position: absolute;
+//   top: -140px;
+//   left: 27vw;
+// }
+
 .ccwSite{
-  height: 570px;
-  width: 82vw;
-  transform: scale(0.5);
+  height: 19vw;
+  width: 44vw;
   position: absolute;
-  top: -140px;
-  left: 27vw;
+  left: 48vw;
+
+}
+
+.ccw{
+  position: absolute;
+  top: 290px;
+  left: 80vw;
+  font-size: 0.7vw;
+  white-space: nowrap
 }
 
 .ccwSiteText{
