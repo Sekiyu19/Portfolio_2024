@@ -13,9 +13,7 @@ const Job = () => {
           <iframe className="ccwSite" src="https://home.childcareweb.jp/#newsTop" frameborder="0"></iframe>
         </div> */}
         <div className="ccwSiteWrapper">
-          <a
-            href="https://home.childcareweb.jp/"
-          >
+          <a href="https://home.childcareweb.jp/" target="_blank">
             <motion.img
             whileHover={{ 
               scale: 1.05,
@@ -46,7 +44,9 @@ const Job = () => {
         <div className="ccwReleaseText">
           今まで私が関わった様々な機能がリリースされています。
           ここに載っているものでは、銀行口座登録機能、勤怠管理機能のリニューアル、ログ強化などに関わっています。
-          2023年9月以降は、まだリリースされていない機能の開発をしています。
+          2023年9月以降は、まだリリースされていない機能の開発をしています。<br/>
+          <a href="https://home.childcareweb.jp/news/1488/" target="_blank">勤怠管理機能</a><br/>
+          <a href="https://home.childcareweb.jp/news/1747/" target="_blank">未登園／未連絡アラート送信機能</a>
         </div>
       </div>
     </div>
